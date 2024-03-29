@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Module_7/Exercise_7_5_05/Exercise_7_5_05.csproj
