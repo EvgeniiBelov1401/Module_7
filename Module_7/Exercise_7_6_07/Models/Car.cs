@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise_7_6_07.Models
 {
-    internal class Car<TEngine> 
+    internal abstract class Car<TEngine> 
         where TEngine : Engine
         
     {
