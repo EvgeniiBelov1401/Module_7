@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise_7_6_07.Models
 {
-    internal class Battery : CarPart
+    internal abstract class CarPart
     {
     }
 }
