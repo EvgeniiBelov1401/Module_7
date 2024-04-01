@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Exercise_7_6_07.Models
 {
-    internal class Car<T1> 
-        where T1 : Engine
+    internal class Car<TEngine> 
+        where TEngine : Engine
         
     {
         public T1 Engine;
 
-        public virtual void ChangePart<T2>(T2 newPart)where T2 : CarPart
+        public virtual void ChangePart<TCarPart>(TCarPart newPart)where TCarPart : CarPart
         {
 
         }
