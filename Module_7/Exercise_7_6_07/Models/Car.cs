@@ -12,9 +12,7 @@ namespace Exercise_7_6_07.Models
     {
         public TEngine Engine;
 
-        public virtual void ChangePart<TCarPart>(TCarPart newPart)where TCarPart : CarPart
-        {
-
-        }
+        public abstract void ChangePart<TCarPart>(TCarPart newPart) where TCarPart : CarPart;
+        
     }
 }
